@@ -1,0 +1,16 @@
+# Python predpomnilnik in kompilirane datoteke
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Okolja in urejevalniki
+venv/
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Operacijski sistem
+.DS_Store
+Thumbs.db
