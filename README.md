@@ -10,6 +10,7 @@ Projektna naloga pri predmetu Uvod v programiranje. Program zajame podatke o igr
 - `main.py` – Glavna skripta, ki povezuje celoten cevovod (pipeline).
 - `analiza.ipynb` – Jupyter zvezek z analizo in vizualizacijo podatkov (podajalci, tekači, sprejemalci).
 - `podatki/` – Mapa s shranjenimi HTML datotekami (`html/`) in končno CSV datoteko (`nfl_2025_statistika.csv`).
+- `uporaba-ui.md` – Datoteka, ki vsebuje pogovor s Claudeom.
 
 ## Namestitev
 
