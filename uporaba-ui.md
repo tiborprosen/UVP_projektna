@@ -1,0 +1,1 @@
+Pri nalogi sem si pomagal s Claudeom. Tu je pogovor: 
