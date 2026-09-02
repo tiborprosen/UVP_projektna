@@ -5,7 +5,7 @@ from izluscenje import izlusci_kategorijo, MAPA_HTML
 MAPA_CSV = "podatki"
 
 def obdelaj_vse():
-    kategorije = ["passing", "rushing", "receiving", "defense"]
+    kategorije = ["passing", "rushing", "receiving"]
     dfs = []
 
     for kat in kategorije:
