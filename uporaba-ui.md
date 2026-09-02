@@ -1,1 +1,1 @@
-Pri nalogi sem si pomagal s Claudeom. Tu je pogovor: 
+Pri nalogi sem si pomagal s Claudeom: <https://claude.ai/share/7989b214-cda9-4c58-911a-1a7a1a4d885c>
