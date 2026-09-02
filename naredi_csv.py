@@ -12,8 +12,8 @@ def obdelaj_vse():
         pot = os.path.join(MAPA_HTML, f"{kat}_2025.html")
         if os.path.exists(pot):
             print(f"Luščim podatke iz {kat}_2025.html ...")
-            zabrane_vrstice = izlusci_kategorijo(pot, kat)
-            df_kat = pd.DataFrame(zabrane_vrstice)
+            zbrane_vrstice = izlusci_kategorijo(pot, kat)
+            df_kat = pd.DataFrame(zbrane_vrstice)
             
             if not df_kat.empty:
                 for col in df_kat.columns:
