@@ -26,7 +26,7 @@ def glavna_funkcija():
         print("\n[1/2] Preskakujem prenos HTML datotek (--skip-download vklopljen).")
     else:
         print(f"\n[1/2] Začenjam prenos {args.pages} HTML strani...")
-        prenesi_strani(st_strani=args.pages)
+        prenesi_nfl_strani(st_strani=args.pages)
 
     print("\n[2/2] Začenjam izluščenje podatkov in shranjevanje v CSV...")
     obdelaj_vse()
