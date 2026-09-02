@@ -11,13 +11,7 @@ def glavna_funkcija():
         action="store_true", 
         help="Preskoči prenos HTML datotek s spleta (uporabi že shranjene datoteke)."
     )
-    parser.add_argument(
-        "-p", "--pages", 
-        type=int, 
-        default=40, 
-        help="Število strani za zajem (privzeto: 40 strani)."
-    )
-
+    
     args = parser.parse_args()
 
     print("=== ZAČETEK PROCESA ===")
@@ -25,8 +19,8 @@ def glavna_funkcija():
     if args.skip_download:
         print("\n[1/2] Preskakujem prenos HTML datotek (--skip-download vklopljen).")
     else:
-        print(f"\n[1/2] Začenjam prenos {args.pages} HTML strani...")
-        prenesi_nfl_strani(st_strani=args.pages)
+        print("\n[1/2] Začenjam prenos HTML strani...")
+        prenesi_nfl_strani()
 
     print("\n[2/2] Začenjam izluščenje podatkov in shranjevanje v CSV...")
     obdelaj_vse()
