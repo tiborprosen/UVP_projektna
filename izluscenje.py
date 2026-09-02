@@ -109,11 +109,7 @@ def izlusci_kategorijo(pot_do_html, kategorija):
                 "receptions": pridobi_val("rec"),
                 "targets": pridobi_val("targets"),
             })
-        elif kategorija == "defense":
-            vnos.update({
-                "def_interceptions": pridobi_val("def_int"),
-                "def_sacks": pridobi_val("def_sacks"),
-            })
+        
 
         podatki.append(vnos)
 
