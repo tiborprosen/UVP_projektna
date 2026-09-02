@@ -36,7 +36,6 @@ python main.py
 Neobvezni argumenti:
 
 - `-s` / `--skip-download` – preskoči prenos HTML-ja in uporabi že shranjene datoteke v `podatki/html/` (uporabno, če želite samo ponovno izluščiti/shraniti podatke brez novega poizvedovanja po spletu).
-- `-p N` / `--pages N` – število strani za zajem (privzeto 40).
 
 Primer:
 ```bash
@@ -45,11 +44,3 @@ python main.py --skip-download
 
 Ko je `podatki/nfl_2025_statistika.csv` ustvarjen, odprite `analiza.ipynb` (npr. v VS Code ali Jupyterju) in poženite celice od zgoraj navzdol za analizo in grafe.
 
-## Vsebina analize
-
-Zvezek `analiza.ipynb` vključuje:
-
-- pregled 10 igralcev z največ skupnimi jardi (podaje + teki + sprejemi),
-- analizo podajalcev (razmerje TD/INT, agresivnost oz. jardi na met),
-- analizo tekačev (skupni jardi, učinkovitost na tek, učinkovitost v rdeči coni),
-- analizo sprejemalcev (vrednost sprejemalca, catch rate, delitev ciljanih podaj po pozicijah pri izbrani ekipi).
