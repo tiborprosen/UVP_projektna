@@ -1,5 +1,5 @@
 import argparse
-from zajem import prenesi_strani
+from zajem import prenesi_nfl_strani
 from naredi_csv import obdelaj_vse
 
 def glavna_funkcija():
